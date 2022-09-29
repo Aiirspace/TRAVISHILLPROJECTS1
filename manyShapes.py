@@ -15,6 +15,9 @@ arcade.draw_circle_filled(150,450,75, arcade.color.AMARANTH_PINK)
 arcade.draw_circle_outline(150,450,100,arcade.color.CITRINE, 8)
 arcade.draw_triangle_filled(820, 700, 1000, 700, 910, 500, arcade.color.LAVENDER_ROSE)
 arcade.draw_triangle_outline(820, 700, 650, 750, 500, 450, arcade.color.HEART_GOLD)
+arcade.draw_arc_filled(400, 700, 100, 100, arcade.color.AQUAMARINE, 30, 340)
+arcade.draw_arc_outline(550,700, 100,100, arcade.color.BUFF, -180,0, 7)
+arcade.draw_parabola_filled(800,200,1000,300, arcade.color.AMBER)
 arcade.finish_render()
 
 
